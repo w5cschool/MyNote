@@ -60,6 +60,7 @@ bash shell是一个程序，软件。用于客户与操作系统打交道的。
 
 如
 
+```
 type cd
 
 type ifconfig
@@ -67,22 +68,31 @@ type ifconfig
 cd is a shell ...		表示内部 命令
 
 ifconfig is hashed(/.)	表示外部命令（带有路径）
+```
+
+
 
 
 
 ### 使用cat查看文件内容
 
+```
 cat 123.txt
+```
 
 ### file查看文件类型：
 
+```
 file ifconfig
+```
 
 
 
 ### 使用whereis 查看可执行文件的路径
 
+```
 whereis ifconfig
+```
 
 
 
@@ -92,13 +102,21 @@ whereis ifconfig
 
 
 
-### 打印字符串：echo "123"
+### 打印字符串：
+
+```
+echo "123"
+```
 
 
 
 
 
-### 打印变量:echo $PATH
+### 打印变量:
+
+```
+echo $PATH
+```
 
 
 
@@ -106,9 +124,17 @@ whereis ifconfig
 
 查看ifconfig怎么用：
 
-1、man ifconfig
+1、
 
-2、ifconfig help 
+```
+man ifconfig
+```
+
+2、
+
+```
+ifconfig help 
+```
 
 一般来说查看外部命令用man，内部命令用help。
 
@@ -116,7 +142,9 @@ whereis ifconfig
 
 则安装
 
+```
 yum install man
+```
 
 
 
